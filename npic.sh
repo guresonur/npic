@@ -1,4 +1,11 @@
 #!/bin/bash
+
+red=`tput setaf 1`
+green=`tput setaf 2`
+reset=`tput sgr0`
+
+echo "${red} basliyor..."
+
 echo ""
 echo "----------------------------------------"
 echo "This is an OS environment check program."
